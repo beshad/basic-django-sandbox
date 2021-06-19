@@ -13,9 +13,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '#lh7bup_363o$jbl05$4(v5hjtl2#bu0ympz)57(9ntdc$bp7)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.178.99']
 
 
 # Application definition
@@ -110,3 +110,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/var/www/sandbox/basic-django-sandbox/static/'
