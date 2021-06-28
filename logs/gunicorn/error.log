@@ -1,0 +1,199 @@
+[2021-06-20 19:57:11 +1200] [328009] [INFO] Starting gunicorn 20.1.0
+[2021-06-20 19:57:11 +1200] [328009] [INFO] Listening at: http://192.168.178.99:8000 (328009)
+[2021-06-20 19:57:11 +1200] [328009] [INFO] Using worker: sync
+[2021-06-20 19:57:11 +1200] [328017] [INFO] Booting worker with pid: 328017
+[2021-06-20 19:57:11 +1200] [328018] [INFO] Booting worker with pid: 328018
+[2021-06-20 19:57:12 +1200] [328019] [INFO] Booting worker with pid: 328019
+[2021-06-20 19:57:12 +1200] [328020] [INFO] Booting worker with pid: 328020
+[2021-06-20 19:57:12 +1200] [328021] [INFO] Booting worker with pid: 328021
+[2021-06-20 08:30:23 +0000] [328018] [INFO] Worker exiting (pid: 328018)
+[2021-06-20 08:30:23 +0000] [328021] [INFO] Worker exiting (pid: 328021)
+[2021-06-20 08:30:23 +0000] [328017] [INFO] Worker exiting (pid: 328017)
+[2021-06-20 08:30:23 +0000] [328020] [INFO] Worker exiting (pid: 328020)
+[2021-06-20 08:30:23 +0000] [328019] [INFO] Worker exiting (pid: 328019)
+[2021-06-20 20:30:23 +1200] [328009] [INFO] Handling signal: term
+[2021-06-20 20:30:23 +1200] [328009] [WARNING] Worker with pid 328018 was terminated due to signal 15
+[2021-06-20 20:30:23 +1200] [328009] [WARNING] Worker with pid 328017 was terminated due to signal 15
+[2021-06-20 20:30:23 +1200] [328009] [WARNING] Worker with pid 328021 was terminated due to signal 15
+[2021-06-20 20:30:23 +1200] [328009] [WARNING] Worker with pid 328020 was terminated due to signal 15
+[2021-06-20 20:30:23 +1200] [328009] [WARNING] Worker with pid 328019 was terminated due to signal 15
+[2021-06-20 20:30:23 +1200] [328009] [INFO] Shutting down: Master
+[2021-06-20 20:30:25 +1200] [331826] [INFO] Starting gunicorn 20.1.0
+[2021-06-20 20:30:25 +1200] [331826] [INFO] Listening at: http://192.168.178.99:8000 (331826)
+[2021-06-20 20:30:25 +1200] [331826] [INFO] Using worker: sync
+[2021-06-20 20:30:25 +1200] [331828] [INFO] Booting worker with pid: 331828
+[2021-06-20 20:30:25 +1200] [331829] [INFO] Booting worker with pid: 331829
+[2021-06-20 20:30:25 +1200] [331830] [INFO] Booting worker with pid: 331830
+[2021-06-20 20:30:25 +1200] [331831] [INFO] Booting worker with pid: 331831
+[2021-06-20 20:30:25 +1200] [331832] [INFO] Booting worker with pid: 331832
+[2021-06-20 08:31:54 +0000] [331831] [INFO] Worker exiting (pid: 331831)
+[2021-06-20 20:31:54 +1200] [331826] [INFO] Handling signal: term
+[2021-06-20 08:31:54 +0000] [331828] [INFO] Worker exiting (pid: 331828)
+[2021-06-20 08:31:54 +0000] [331829] [INFO] Worker exiting (pid: 331829)
+[2021-06-20 08:31:54 +0000] [331832] [INFO] Worker exiting (pid: 331832)
+[2021-06-20 20:31:54 +1200] [331826] [WARNING] Worker with pid 331831 was terminated due to signal 15
+[2021-06-20 08:31:54 +0000] [331830] [INFO] Worker exiting (pid: 331830)
+[2021-06-20 20:31:55 +1200] [331826] [INFO] Shutting down: Master
+[2021-06-20 20:32:02 +1200] [332280] [INFO] Starting gunicorn 20.1.0
+[2021-06-20 20:32:02 +1200] [332280] [INFO] Listening at: http://192.168.178.99:8000 (332280)
+[2021-06-20 20:32:02 +1200] [332280] [INFO] Using worker: sync
+[2021-06-20 20:32:02 +1200] [332282] [INFO] Booting worker with pid: 332282
+[2021-06-20 20:32:02 +1200] [332283] [INFO] Booting worker with pid: 332283
+[2021-06-20 20:32:02 +1200] [332284] [INFO] Booting worker with pid: 332284
+[2021-06-20 20:32:02 +1200] [332285] [INFO] Booting worker with pid: 332285
+[2021-06-20 20:32:02 +1200] [332286] [INFO] Booting worker with pid: 332286
+[2021-06-20 09:43:08 +0000] [332286] [INFO] Worker exiting (pid: 332286)
+[2021-06-20 09:43:08 +0000] [332283] [INFO] Worker exiting (pid: 332283)
+[2021-06-20 09:43:08 +0000] [332285] [INFO] Worker exiting (pid: 332285)
+[2021-06-20 09:43:08 +0000] [332282] [INFO] Worker exiting (pid: 332282)
+[2021-06-20 21:43:08 +1200] [332280] [INFO] Handling signal: term
+[2021-06-20 09:43:08 +0000] [332284] [INFO] Worker exiting (pid: 332284)
+[2021-06-20 21:43:08 +1200] [332280] [WARNING] Worker with pid 332286 was terminated due to signal 15
+[2021-06-20 21:43:08 +1200] [332280] [WARNING] Worker with pid 332285 was terminated due to signal 15
+[2021-06-20 21:43:08 +1200] [332280] [WARNING] Worker with pid 332283 was terminated due to signal 15
+[2021-06-20 21:43:09 +1200] [332280] [INFO] Shutting down: Master
+supervisor: couldn't exec /var/www/basic-django-sandbox/env/bin/gunicorn: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/basic-django-sandbox/env/bin/gunicorn: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/basic-django-sandbox/env/bin/gunicorn: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/basic-django-sandbox/env/bin/gunicorn: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/basic-django-sandbox/env/bin/gunicorn: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/basic-django-sandbox/env/bin/gunicorn: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/basic-django-sandbox/env/bin/gunicorn: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/basic-django-sandbox/env/bin/gunicorn: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/basic-django-sandbox/env/bin/gunicorn: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/basic-django-sandbox/env/bin/gunicorn: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/basic-django-sandbox/env/bin/gunicorn: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/basic-django-sandbox/env/bin/gunicorn: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/basic-django-sandbox/env/bin/gunicorn: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/basic-django-sandbox/env/bin/gunicorn: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/basic-django-sandbox/env/bin/gunicorn: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/basic-django-sandbox/env/bin/gunicorn: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/basic-django-sandbox/env/bin/gunicorn: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/basic-django-sandbox/env/bin/gunicorn: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/basic-django-sandbox/env/bin/gunicorn: ENOENT
+supervisor: child process was not spawned
+supervisor: couldn't exec /var/www/basic-django-sandbox/env/bin/gunicorn: ENOENT
+supervisor: child process was not spawned
+[2021-06-20 22:08:52 +1200] [335191] [INFO] Starting gunicorn 20.1.0
+[2021-06-20 22:08:52 +1200] [335191] [INFO] Listening at: http://192.168.178.99:8000 (335191)
+[2021-06-20 22:08:52 +1200] [335191] [INFO] Using worker: sync
+[2021-06-20 22:08:52 +1200] [335193] [INFO] Booting worker with pid: 335193
+[2021-06-20 22:08:52 +1200] [335194] [INFO] Booting worker with pid: 335194
+[2021-06-20 22:08:53 +1200] [335195] [INFO] Booting worker with pid: 335195
+[2021-06-20 22:08:53 +1200] [335196] [INFO] Booting worker with pid: 335196
+[2021-06-20 22:08:53 +1200] [335197] [INFO] Booting worker with pid: 335197
+[2021-06-21 06:50:15 +0000] [335196] [INFO] Worker exiting (pid: 335196)
+[2021-06-21 06:50:15 +0000] [335197] [INFO] Worker exiting (pid: 335197)
+[2021-06-21 06:50:15 +0000] [335195] [INFO] Worker exiting (pid: 335195)
+[2021-06-21 06:50:15 +0000] [335194] [INFO] Worker exiting (pid: 335194)
+[2021-06-21 18:50:15 +1200] [335191] [INFO] Handling signal: term
+[2021-06-21 06:50:15 +0000] [335193] [INFO] Worker exiting (pid: 335193)
+[2021-06-21 18:50:15 +1200] [335191] [WARNING] Worker with pid 335197 was terminated due to signal 15
+[2021-06-21 18:50:15 +1200] [335191] [WARNING] Worker with pid 335193 was terminated due to signal 15
+[2021-06-21 18:50:15 +1200] [335191] [WARNING] Worker with pid 335196 was terminated due to signal 15
+[2021-06-21 18:50:15 +1200] [335191] [WARNING] Worker with pid 335195 was terminated due to signal 15
+[2021-06-21 18:50:15 +1200] [335191] [WARNING] Worker with pid 335194 was terminated due to signal 15
+[2021-06-21 18:50:15 +1200] [335191] [INFO] Shutting down: Master
+[2021-06-21 18:55:36 +1200] [345752] [INFO] Starting gunicorn 20.1.0
+[2021-06-21 18:55:36 +1200] [345752] [INFO] Listening at: http://192.168.178.99:8000 (345752)
+[2021-06-21 18:55:36 +1200] [345752] [INFO] Using worker: sync
+[2021-06-21 18:55:36 +1200] [345767] [INFO] Booting worker with pid: 345767
+[2021-06-21 18:55:36 +1200] [345768] [INFO] Booting worker with pid: 345768
+[2021-06-21 18:55:37 +1200] [345769] [INFO] Booting worker with pid: 345769
+[2021-06-21 18:55:37 +1200] [345770] [INFO] Booting worker with pid: 345770
+[2021-06-21 18:55:37 +1200] [345771] [INFO] Booting worker with pid: 345771
+[2021-06-21 06:58:49 +0000] [345770] [INFO] Worker exiting (pid: 345770)
+[2021-06-21 06:58:50 +0000] [345769] [INFO] Worker exiting (pid: 345769)
+[2021-06-21 06:58:50 +0000] [345771] [INFO] Worker exiting (pid: 345771)
+[2021-06-21 06:58:50 +0000] [345768] [INFO] Worker exiting (pid: 345768)
+[2021-06-21 06:58:50 +0000] [345767] [INFO] Worker exiting (pid: 345767)
+[2021-06-21 18:58:50 +1200] [345752] [INFO] Handling signal: term
+[2021-06-21 18:58:50 +1200] [345752] [WARNING] Worker with pid 345770 was terminated due to signal 15
+[2021-06-21 18:58:50 +1200] [345752] [WARNING] Worker with pid 345767 was terminated due to signal 15
+[2021-06-21 18:58:50 +1200] [345752] [WARNING] Worker with pid 345768 was terminated due to signal 15
+[2021-06-21 18:58:50 +1200] [345752] [WARNING] Worker with pid 345771 was terminated due to signal 15
+[2021-06-21 18:58:50 +1200] [345752] [WARNING] Worker with pid 345769 was terminated due to signal 15
+[2021-06-21 18:58:50 +1200] [345752] [INFO] Shutting down: Master
+[2021-06-21 18:58:52 +1200] [345885] [INFO] Starting gunicorn 20.1.0
+[2021-06-21 18:58:52 +1200] [345885] [INFO] Listening at: http://192.168.178.99:8000 (345885)
+[2021-06-21 18:58:52 +1200] [345885] [INFO] Using worker: sync
+[2021-06-21 18:58:52 +1200] [345890] [INFO] Booting worker with pid: 345890
+[2021-06-21 18:58:52 +1200] [345891] [INFO] Booting worker with pid: 345891
+[2021-06-21 18:58:52 +1200] [345893] [INFO] Booting worker with pid: 345893
+[2021-06-21 18:58:52 +1200] [345895] [INFO] Booting worker with pid: 345895
+[2021-06-21 18:58:52 +1200] [345897] [INFO] Booting worker with pid: 345897
+[2021-06-25 06:45:16 +0000] [345895] [INFO] Worker exiting (pid: 345895)
+[2021-06-25 06:45:16 +0000] [345893] [INFO] Worker exiting (pid: 345893)
+[2021-06-25 06:45:16 +0000] [345891] [INFO] Worker exiting (pid: 345891)
+[2021-06-25 18:45:16 +1200] [345885] [INFO] Handling signal: term
+[2021-06-25 06:45:16 +0000] [345890] [INFO] Worker exiting (pid: 345890)
+[2021-06-25 06:45:16 +0000] [345897] [INFO] Worker exiting (pid: 345897)
+[2021-06-25 18:45:16 +1200] [345885] [WARNING] Worker with pid 345895 was terminated due to signal 15
+[2021-06-25 18:45:16 +1200] [345885] [WARNING] Worker with pid 345891 was terminated due to signal 15
+[2021-06-25 18:45:16 +1200] [345885] [WARNING] Worker with pid 345893 was terminated due to signal 15
+[2021-06-25 18:45:17 +1200] [345885] [INFO] Shutting down: Master
+[2021-06-25 18:49:51 +1200] [1066] [INFO] Starting gunicorn 20.1.0
+[2021-06-25 18:49:51 +1200] [1066] [INFO] Listening at: http://192.168.178.99:8000 (1066)
+[2021-06-25 18:49:51 +1200] [1066] [INFO] Using worker: sync
+[2021-06-25 18:49:51 +1200] [1093] [INFO] Booting worker with pid: 1093
+[2021-06-25 18:49:51 +1200] [1094] [INFO] Booting worker with pid: 1094
+[2021-06-25 18:49:51 +1200] [1095] [INFO] Booting worker with pid: 1095
+[2021-06-25 18:49:51 +1200] [1096] [INFO] Booting worker with pid: 1096
+[2021-06-25 18:49:51 +1200] [1097] [INFO] Booting worker with pid: 1097
+[2021-06-25 18:50:21 +1200] [1066] [CRITICAL] WORKER TIMEOUT (pid:1093)
+[2021-06-25 18:50:21 +1200] [1066] [CRITICAL] WORKER TIMEOUT (pid:1094)
+[2021-06-25 18:50:21 +1200] [1066] [CRITICAL] WORKER TIMEOUT (pid:1095)
+[2021-06-25 18:50:21 +1200] [1066] [CRITICAL] WORKER TIMEOUT (pid:1096)
+[2021-06-25 18:50:21 +1200] [1066] [CRITICAL] WORKER TIMEOUT (pid:1097)
+[2021-06-25 18:50:21 +1200] [1093] [INFO] Worker exiting (pid: 1093)
+[2021-06-25 18:50:21 +1200] [1095] [INFO] Worker exiting (pid: 1095)
+[2021-06-25 18:50:21 +1200] [1097] [INFO] Worker exiting (pid: 1097)
+[2021-06-25 18:50:21 +1200] [1094] [INFO] Worker exiting (pid: 1094)
+[2021-06-25 18:50:21 +1200] [1096] [INFO] Worker exiting (pid: 1096)
+[2021-06-25 18:50:21 +1200] [1066] [WARNING] Worker with pid 1093 was terminated due to signal 9
+[2021-06-25 18:50:21 +1200] [1187] [INFO] Booting worker with pid: 1187
+[2021-06-25 18:50:21 +1200] [1066] [WARNING] Worker with pid 1096 was terminated due to signal 9
+[2021-06-25 18:50:21 +1200] [1066] [WARNING] Worker with pid 1097 was terminated due to signal 9
+[2021-06-25 18:50:21 +1200] [1066] [WARNING] Worker with pid 1094 was terminated due to signal 9
+[2021-06-25 18:50:21 +1200] [1188] [INFO] Booting worker with pid: 1188
+[2021-06-25 18:50:21 +1200] [1189] [INFO] Booting worker with pid: 1189
+[2021-06-25 18:50:21 +1200] [1194] [INFO] Booting worker with pid: 1194
+[2021-06-25 18:50:22 +1200] [1195] [INFO] Booting worker with pid: 1195
+[2021-06-25 06:57:02 +0000] [1195] [INFO] Worker exiting (pid: 1195)
+[2021-06-25 06:57:02 +0000] [1189] [INFO] Worker exiting (pid: 1189)
+[2021-06-25 06:57:02 +0000] [1194] [INFO] Worker exiting (pid: 1194)
+[2021-06-25 06:57:02 +0000] [1188] [INFO] Worker exiting (pid: 1188)
+[2021-06-25 06:57:02 +0000] [1187] [INFO] Worker exiting (pid: 1187)
+[2021-06-25 18:57:02 +1200] [1066] [INFO] Handling signal: term
+[2021-06-25 18:57:02 +1200] [1066] [WARNING] Worker with pid 1195 was terminated due to signal 15
+[2021-06-25 18:57:02 +1200] [1066] [WARNING] Worker with pid 1194 was terminated due to signal 15
+[2021-06-25 18:57:02 +1200] [1066] [WARNING] Worker with pid 1187 was terminated due to signal 15
+[2021-06-25 18:57:02 +1200] [1066] [WARNING] Worker with pid 1188 was terminated due to signal 15
+[2021-06-25 18:57:02 +1200] [1066] [WARNING] Worker with pid 1189 was terminated due to signal 15
+[2021-06-25 18:57:02 +1200] [1066] [INFO] Shutting down: Master
+[2021-06-25 18:57:04 +1200] [6036] [INFO] Starting gunicorn 20.1.0
+[2021-06-25 18:57:04 +1200] [6036] [INFO] Listening at: http://192.168.178.99:8000 (6036)
+[2021-06-25 18:57:04 +1200] [6036] [INFO] Using worker: sync
+[2021-06-25 18:57:04 +1200] [6039] [INFO] Booting worker with pid: 6039
+[2021-06-25 18:57:04 +1200] [6040] [INFO] Booting worker with pid: 6040
+[2021-06-25 18:57:04 +1200] [6041] [INFO] Booting worker with pid: 6041
+[2021-06-25 18:57:04 +1200] [6042] [INFO] Booting worker with pid: 6042
+[2021-06-25 18:57:04 +1200] [6043] [INFO] Booting worker with pid: 6043
